@@ -581,7 +581,7 @@ img[src*="/luci-static/resources/cbi/reload.gif"] {
     margin-top: 10px;
 }
 
-#cbi-shadowsocksr .cbi-map-descr {
+#cbi-passwall .cbi-map-descr {
     display: none;
 }
 
@@ -709,7 +709,7 @@ header > .container > .brand-hostname {
 .error {
     color: red;
 }
-p#shadowsocksr_status {
+p#passwall_status {
     padding: 3px;
 }
 
@@ -1960,14 +1960,14 @@ header > .container > .pull-right > * {
     width: 100%;
 }
 
-/* fix node-services-shadowsocksr */
+/* fix node-services-passwall */
 
-.node-services-shadowsocksr .cbi-input-textarea,
+.node-services-passwall .cbi-input-textarea,
 .node-nlbw-config .cbi-input-textarea {
     /* margin: 10px; */
 }
 
-.node-services-shadowsocksr #cbi-logview .cbi-section {
+.node-services-passwall #cbi-logview .cbi-section {
     padding: 0;
 }
 
@@ -2207,7 +2207,7 @@ header > .container > .pull-right > * {
 }
 
 
-select#cbi\.combobox\.cbid\.shadowsocksr\.cfg013fd6\.tunnel_forward {
+select#cbi\.combobox\.cbid\.passwall\.cfg013fd6\.tunnel_forward {
     overflow: hidden;
 
 }
